@@ -35,24 +35,3 @@ for CITY in cities:
 
 df = pd.DataFrame(weather_data) 
 print(df)
-
-
-
-# print(df.sort_values(by='Temperature', ascending=False).head(3))
-# print("--------------------------------------------------------------------------------------------------------------------------------------------")
-# print(df.sort_values(by='Humidity(%)', ascending=False).head(1))
-
-# import matplotlib.pyplot as plt
-# plt.figure(figsize=(10,5))
-# plt.bar(df['City'], df['Temperature'], color='orange')
-# plt.title('City vs Temperature')
-# plt.xlabel('City')
-# plt.ylabel('Temperature (°C)')
-# plt.show()
-
-# # plt.figure(figsize=(10,5))
-# # plt.bar(df['City'], df['Humidity(%)'], color='blue')
-# # plt.title('City vs Humidity')
-# # plt.xlabel('City')
-# # plt.ylabel('Humidity (%)')
-# # plt.show()
